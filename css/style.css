@@ -1,0 +1,185 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.main{
+    display: flex;
+    margin-top: 10px;  
+    padding: 10px 20px;
+}
+.logo{
+    flex-basis: 20%;
+    margin-top: 16px;
+}
+.menu{
+    flex-basis: 60%;
+}
+.btns button{
+    flex-basis: 20%; 
+    background-color: blue;
+    padding: 10px 20px;
+    height: 150ppx;
+    width: 100px;
+    color: white;
+    
+}
+.btns{
+    display: flex;
+    align-items: center;
+    
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 15px;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 50px;
+}
+/* banner section css start */
+.banner-section{
+  width: 100%;
+  height: 70vh;
+  margin: 80px 0;
+  background: url(../img/intro.png) center right no-repeat;
+  background-size: auto;
+  
+}
+.banner-innar{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+} 
+.banner-section .banner-innar .left,.banner-section .banner-innar .right{
+    flex-basis: 50%;
+}
+.banner-section .banner-innar .left h1{
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 50px;
+    color: blue;
+}
+.banner-section .banner-innar .left p{
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 26px;
+    color: darkcyan;
+    margin: 20px 0px 50px;
+    width: 87%;
+}
+.banner-section .banner-innar .left .btn a{
+   background-color: blue;
+   color: white;
+   padding: 13px 30px;
+   border-radius: 8px;
+   font-size: 16px;
+ 
+}
+.banner-section .banner-innar .right img{
+    width: 100%;
+}
+.feature-section{
+    width: 100%;
+   padding: 80px 0px;
+}
+.flex-box{
+    display: flex;
+    
+}
+.box-1{
+    background-color: gold;
+    display: flex;
+    padding: 20px;
+    margin: 0px 10px;
+    border-radius: 8px;
+    color: white;
+    font-size: 15px;
+    width: 35%;
+    height: 80px;
+   line-height: 26px;
+   
+}
+.box-2{
+    background-color: aqua;
+    display: flex;
+    padding: 20px;
+    margin: 0px 10px;
+    border-radius: 8px;
+    color: white;
+    font-size: 15px;
+    width: 35%;
+    line-height: 26px;
+}
+.box-3{
+    background-color: blue;
+    display: flex;
+    padding: 20px;
+    margin: 0px 10px;
+    border-radius: 8px;
+    color: white;
+    font-size: 15px;
+    width: 35%;
+    line-height: 26px;
+}
+/* banner section style css */
+.banner{
+    width: 100%;
+    margin: 80px 0;
+    height: 70vh;
+    background: url(../img/image2.png) center right no-repeat;
+    background-size: auto;
+}
+.banner-inner{
+    display: flex;
+    align-items: center;
+    height: 70vh;
+}
+.banner .banner-inner .left, .banner .banner-inner .right{
+    flex-basis: 50%;
+}
+.banner .banner-inner .left h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 35px;
+    color: darkblue;
+    width: 79%;
+    line-height: 43px;
+}
+.banner .banner-inner .left p{
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 26px;
+    color: darkblue;
+    margin: 20px 0 50px;
+    width: 95%;
+    line-height: 26px;
+}
+.banner .banner-inner .right img{
+    width: 100%;
+}
+.banner .banner-inner .left .btn a{
+   background-color: blue;
+   color: white;
+   padding: 13px 30px;
+   border-radius: 8px;
+   font-size: 16px;
+}
+
+
+
